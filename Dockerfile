@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 USER root
 
-COPY sources.list /etc/apt/sources.list
+# COPY sources.list /etc/apt/sources.list
 
 # Install packages
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \

@@ -29,4 +29,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: NGKP45/java-devcontainer:latest
+        tags: java-devcontainer:latest
