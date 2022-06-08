@@ -9,7 +9,7 @@ ENV PATH=$PATH:$PWD/gradle-7.4.2/bin
 
 # Install packages
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y -qq install openjdk-17-jdk mysql-client-core-8.0 wget net-tools zip unzip git vim vi iftop iotop
+    && apt-get -y -qq install openjdk-17-jdk mysql-client-core-8.0 wget net-tools zip unzip git vim iftop iotop
 # Install Maven
 RUN wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz \
     && tar -xzf apache-maven-3.8.5-bin.tar.gz \
