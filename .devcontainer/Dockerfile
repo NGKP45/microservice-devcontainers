@@ -1,3 +1,3 @@
-FROM java-devcontainer:0.0.1
+FROM ghcr.io/ngkp45/java-devcontainer:latest
 
 USER root
