@@ -4,6 +4,9 @@ on:
   push:
     paths: 
       - Dockerfile
+  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
 
